@@ -1,0 +1,139 @@
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background: #f8f0f5;
+    color: #443344;
+}
+
+header {
+    background: linear-gradient(135deg, #c58ab5, #8e6aa8);
+    color: white;
+    text-align: center;
+    padding: 55px 20px;
+}
+
+header h1 {
+    font-size: 38px;
+    margin-bottom: 15px;
+}
+
+header p {
+    font-size: 17px;
+}
+
+main {
+    text-align: center;
+    padding: 50px 20px;
+}
+
+main h2 {
+    font-size: 28px;
+    margin-bottom: 15px;
+}
+
+.intro {
+    margin-bottom: 45px;
+}
+
+.timeline {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 30px;
+}
+
+.idade {
+    text-decoration: none;
+    color: #443344;
+    background: white;
+    padding: 25px;
+    width: 150px;
+    border-radius: 15px;
+    box-shadow: 0 4px 12px #00000015;
+    transition: 0.3s;
+}
+
+.idade:hover {
+    transform: translateY(-10px);
+    background: #ead5e8;
+}
+
+.idade span {
+    display: block;
+    font-size: 35px;
+    font-weight: bold;
+    color: #a365a1;
+    margin-bottom: 10px;
+}
+
+.pagina {
+    max-width: 850px;
+    margin: auto;
+}
+
+.conteudo {
+    background: white;
+    padding: 30px;
+    border-radius: 20px;
+    margin-top: 30px;
+    box-shadow: 0 4px 15px #00000015;
+}
+
+.conteudo img {
+    width: 100%;
+    max-width: 500px;
+    border-radius: 15px;
+    margin-bottom: 25px;
+}
+
+.conteudo h3 {
+    color: #a365a1;
+    margin: 20px 0 10px;
+}
+
+.conteudo p {
+    line-height: 1.7;
+    margin-bottom: 20px;
+}
+
+.navegacao {
+    display: flex;
+    justify-content: space-between;
+    gap: 15px;
+    margin-top: 35px;
+}
+
+.navegacao a {
+    background: #a365a1;
+    color: white;
+    text-decoration: none;
+    padding: 13px 22px;
+    border-radius: 10px;
+}
+
+.navegacao a:hover {
+    background: #805080;
+}
+
+footer {
+    text-align: center;
+    padding: 25px;
+    color: #805080;
+}
+
+@media (max-width: 600px) {
+    header h1 {
+        font-size: 28px;
+    }
+
+    .navegacao {
+        flex-direction: column;
+    }
+}
